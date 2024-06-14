@@ -1,7 +1,7 @@
 # Setup
 title:               BaeYD
 tagline:             '평범한 사람의 블로그'
-description:         'Generalist를 지향하며<br/>Specialist를 꿈꾸는<br/>평범한 사람의 IT 블로그'
+description:         'Generalist를 지향하며<br/>Specialist를 꿈꾸는<br/>평범한 사람의 IT 블로그'&nbsp&nbsp&nbsp&nbsp<a href="mailto:byd0105@outlook.com"> Email</a>&nbsp <a href="https://github.com/baeyd"> GitHub</a><br>
 #description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 https://baeyd.github.io/
 baseurl:             ''
