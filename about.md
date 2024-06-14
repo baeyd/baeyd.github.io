@@ -5,12 +5,14 @@ title: About
 
 <p class="message">
   안녕하세요.
-  테스트입니다.
+  제 블로그에 방문한 것을 환영합니다.
+  궁금한 부분이나 틀린부분이 있으시면 메일 부탁드리겠습니다.
+  감사합니다.
 </p>
 
-## Setup
+## Career
 
-Some fun facts about the setup of this project include:
+저의 경력은 다음과 같습니다.
 
 * Built for [Jekyll](https://jekyllrb.com)
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
