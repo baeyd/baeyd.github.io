@@ -4,20 +4,15 @@ title: About
 ---
 
 <p class="message">
-  안녕하세요.
-  제 블로그에 방문한 것을 환영합니다.
-  궁금한 부분이나 틀린부분이 있으시면 메일 부탁드리겠습니다.
+  안녕하세요.<br>
+  제 블로그에 방문한 것을 환영합니다.<br>
+  궁금한 부분이나 틀린부분이 있으시면 메일 부탁드리겠습니다.<br>
   감사합니다.
 </p>
 
 ## Career
-
 저의 경력은 다음과 같습니다.
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+* 2023.06 ~         : 경찰(사이버수사 경력채용)
+* 2022.01 ~ 2023.06 : SK실트론 보안운영 및 취약점진단
+* 2020.02 ~ 2021.12 : 대구광역시 교육청 통합 보안관제
+* 2017.12 ~ 2020.02 : 대구광역시 학교 홈페이지 통합시스템 운영
