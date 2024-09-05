@@ -6,17 +6,17 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko-KR #2024.09.06 en → ko-KR
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Seoul #2024.09.06 N/A → Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: BaeYD # the main title #2024.09.06 Chirpy → BaeYD
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 평범한 사람의 블로그 # it will display as the subtitle #2024.09.06 A text-focused Jekyll theme → 평범한 사람의 블로그
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -27,20 +27,20 @@ description: >- # used by seo meta and the atom feed
 url: "https://baeyd.github.io/"
 
 github:
-  username: github_username # change to your GitHub username
+  username: baeyd # change to your GitHub username #2024.09.06 github_username → baeyd
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # change to your Twitter username #2024.09.06 twitter_username → N/A 
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: BaeYD
+  email: byd0105@outlook.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage #2024.09.06 → #
+    - https://github.com/baeyd # change to your GitHub homepage #2024.09.06 username → baeyd
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -99,7 +99,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: #사진추가필
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
