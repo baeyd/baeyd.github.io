@@ -2,7 +2,7 @@
 title: "Github Blog 생성"
 date: 2024-09-06 02:00:00 +0900
 last_modified_at: 2024-09-06 02:43:00 +0900
-categories: [Github Blog, Jekyll]
+categories: [Github Blog, 블로그 생성]
 tags: [github, jekyll, chirpy, blog]
 author: BaeYD
 toc: ture
