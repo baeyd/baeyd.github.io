@@ -1,15 +1,14 @@
 ---
 title: "Github Blog 생성"
 date: 2024-09-06 02:00:00 +0900
-last_modified_at: 2024-09-06 02:43:00 +0900
+last_modified_at: 2024-09-08 22:32:00 +0900
 categories: [Github Blog, 블로그 생성]
 tags: [github, jekyll, chirpy, blog]
 author: BaeYD
 toc: ture
 ---
 
-> Github 블로그를 만들기 위해  
-> Jekyll 테마 중 마음에 드는 테마인 Chirpy를 적용하여   
+> Github 블로그를 만들기 위해 Jekyll 테마 중 마음에 드는 테마인 Chirpy를 적용하여   
 > 블로그를 생성해보는 게시글이며, 다른 블로그를 참고하여 진행하였을 때 발생하는 오류에 대한 대처 방법을 정리하였다.
 
 # Github 계정 생성
@@ -39,6 +38,31 @@ Chirpy 테마를 적용하여 Github 블로그를 생성해보자.
 - Repository Local Clone 진행 후 Local에서 초기화하고 Github Repository 동기화 및 배포 (Github Desktop, Ruby, Jekyll 등 설치)
 
 ## Chirpy Repository Fork
-Chirpy를 Fork하기 위해 [Chirpy Repository](https://chirpy.cotes.page/ "Chirpy")로 접속한다.   
-접속하면 아래와 같은 화면이 보이게 될 텐데 
+**< Step 1 >**   
+Chirpy를 Fork하기 위해 [Chirpy Repository](https://chirpy.cotes.page/ "Chirpy")로 접속 후 Fork 버튼을 클릭한다.   
+</br>
+![Fork_img](https://github.com/user-attachments/assets/10c09848-e0e8-41ec-91f4-8a76a4f35e70)
+</br></br></br>
+
+**< Step 2 >**   
+Github Blog의 주소와 같이 Repository 이름을 변경한다.   
+Github 계정 ID와 Repository 이름이 동일할 경우 블로그의 주소는 **계정ID.github.io**가 되는것이고,   
+Github 계정 ID와 Repository 이름이 다를 경우에는 블로그의 주소는 **계정ID.github.io/Repository name**처럼 별도의 Path가 추가되어야 한다.   
+일반적으로 Blog의 주소는 Github 계정 ID와 Repository 이름을 동일하게 하기에 아래와 같이 동일하게 수정한다.   
+</br>
+![Repository Creat](https://github.com/user-attachments/assets/f4ea094a-6c2a-45d9-8ce2-c4ef1e67b675)
+</br></br></br>
+
+**< Step 3 >**   
+생성이 완료되었다면 Github계정의 Repository에 보면 Fork된 것을 확인할 수 있다.   
+</br>
+![Repository Creat Success](https://github.com/user-attachments/assets/b13c671b-0989-43c9-83e6-c4f823f58488)
+</br></br></br>
+
+## Repository 설정 변경
+
+<!---```shell
+$ ruby -v
+ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [i386-mingw32]
+```--->
 
