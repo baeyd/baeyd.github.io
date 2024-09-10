@@ -38,6 +38,7 @@ Chirpy 테마를 적용하여 Github 블로그를 생성해보자.
 - Repository Local Clone 진행 후 Local에서 초기화하고 Github Repository 동기화 및 배포 (Github Desktop, Ruby, Jekyll 등 설치)
 
 ### Chirpy Repository Fork
+
 **< Step 1 >**   
 Chirpy를 Fork하기 위해 [Chirpy Repository](https://chirpy.cotes.page/ "Chirpy")로 접속 후 Fork 버튼을 클릭한다.   
 <br/>
@@ -59,6 +60,14 @@ Github 계정 ID와 Repository 이름이 다를 경우에는 블로그의 주소
 <br/><br/>
 
 ### Repository 설정 변경
+Fork 후 생성한 블로그가 정상적으로 나오는지 확인할려고 접속을 하면 404 Error가 발생하는 것을 확인할 수 있을 것이다.   
+Jekyll의 테마들은 대부분 추가적인 Plugin이 필요하고, Chirpy 테마처럼 커스텀 빌드가 필요한 경우 Github Actions 없이 정상적인 배포가 진행되지 않을 수 있다.   
+따라서 Github Repository의 Setting(Page)에 있는 Build and deployment 설정을 변경하여야 한다.
+
+**< Step 1 >**   
+
+
+동동이는 멈무멈무 멍텅구리 멈무멈무
 
 <!---```shell
 $ ruby -v
