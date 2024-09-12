@@ -97,4 +97,8 @@ Error를 확인해보면 "Error: Can't find stylesheet to import."로 인해 생
 $ ruby -v
 ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [i386-mingw32]
 ```--->
+<!---
+> Warning: Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?
+{: .prompt-danger }
+--->
 
