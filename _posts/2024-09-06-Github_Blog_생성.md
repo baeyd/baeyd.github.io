@@ -56,6 +56,7 @@ Github 계정 ID와 Repository 이름이 다를 경우에는 블로그의 주소
 
 **< Step 3 >**   
 생성이 완료되었다면 Github계정의 Repository에 보면 Fork된 것을 확인할 수 있다.   
+<br/>
 ![Repository Creat Success](https://github.com/user-attachments/assets/b13c671b-0989-43c9-83e6-c4f823f58488)
 <br/><br/>
 
@@ -65,9 +66,32 @@ Jekyll의 테마들은 대부분 추가적인 Plugin이 필요하고, Chirpy 테
 따라서 Github Repository의 Setting(Page)에 있는 Build and deployment 설정을 변경하여야 한다.
 
 **< Step 1 >**   
+생성된 Repository를 클릭하면 상단에 Settings 버튼이 있다.   
+해당 버튼을 클릭한 후 좌측 Code and automation에서 Pages를 클릭한다.   
+이후 Build and deployment에서 Github Actions으로 수정한다.   
+<br/>
+![Github Actions](https://github.com/user-attachments/assets/d426c0f9-c64b-4028-b705-8ddea7157ae4)
+<br/><br/>
 
+**< Step 2 >**   
+Github Actions으로 수정하면 이제 Github가 사이트를 빌드하고 배포하는 과정을 자동화할 수 있다.   
+이를 위해 Github가 워크플로우 파일인 jekyll.yml를 인식하고 해당 파일에 설정에 따라 동작을 진행한다.   
+현재 단계에서는 jekyll.yml 파일을 수정할 필요는 없고 최초 생성만 진행하면 되는데 생성을 위해서는 최초 Commit을 진행하기 위해,   
+Configure버튼을 클릭하고 이후 Commit버튼을 클릭한다.   
+<br/>
+![Jekyll Configure](https://github.com/user-attachments/assets/a309aaea-5224-433f-b127-548856ebac0a)
+<br/>
+![Jekyll Configure Commit](https://github.com/user-attachments/assets/18668439-2b13-4bfc-8e72-4edec5f07f7e)
+<br/><br/>
 
-동동이는 멈무멈무 멍텅구리 멈무멈무
+**< Step 3 >**   
+정상적으로 진행이 된 것을 확인하기 위해 Action에 들어가서 확인해보면 Jekyll.yml 파일 생성에 실패한 것을 볼 수 있다.   
+Error를 확인해보면 "Error: Can't find stylesheet to import."로 인해 생성에 실패하였다고 하는데,   
+이를 해결하기 위해 다음 단계를 진행한다.   
+<br/>
+![Fail Build](https://github.com/user-attachments/assets/045e0018-56b9-4376-a81f-2295a8c0a4f4)
+
+### Chirpy 초기화
 
 <!---```shell
 $ ruby -v
