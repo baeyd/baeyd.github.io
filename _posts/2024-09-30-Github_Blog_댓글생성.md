@@ -3,7 +3,7 @@ title: "Github Blog 댓글 사용"
 date: 2024-09-30 15:20:00 +0900
 last_modified_at: 2024-09-30 15:20:00 +0900
 categories: [Github Blog, 댓글기능]
-tags: [github, jekyll, chirpy, blog, Disqus, Gitalk, Utterances]
+tags: [github, jekyll, chirpy, blog, Disqus, Utterances]
 author: BaeYD
 toc: ture
 ---
@@ -25,14 +25,6 @@ toc: ture
     - 광고 포함: 무료 버전에서 광고가 나타날 수 있음.
     - 데이터 저장 문제: 개인 정보 보호 우려.
   
-- **Gitalk**   
-  - 장점
-    - GitHub 통합: GitHub 계정으로 간편하게 로그인 가능.
-    - Markdown 지원: 댓글 형식이 자유롭고 편리함.
-  - 단점
-    - GitHub 의존성: GitHub 계정이 필요하여 일부 사용자에게 불편할 수 있음.
-    - 복잡한 설정: 초기 설정 과정이 다소 복잡함.
-
 - **Utterances**   
   - 장점
     - 간편한 설치: 짧은 코드로 쉽게 추가 가능.
@@ -43,15 +35,11 @@ toc: ture
    
 ## 적용방법
 위에 설명한 것과 같이 나는 Utterances를 적용해서 사용하는데 각각 사용하고자 하는것이 다를 수 있기에,   
-대표적인 Github Blog의 댓글기능인 Disqus, Gitalk, Utterances를 직접 적용해보고 방법에 대해서 설명하겠다.   
+대표적인 Github Blog의 댓글기능인 Disqus, Utterances를 직접 적용해보고 방법에 대해서 설명하겠다.   
 
 ### Disqus
 
 참고 : https://help.disqus.com/en/articles/1717056-publisher-quick-start-guide
-
-### Gitalk
-
-참고 : https://github.com/gitalk/gitalk
 
 ### Utterances
 
